@@ -1,14 +1,18 @@
 # # 📚 Online Library System
 
-An online book management system built with **React**, **Redux**, and **React Router**. Allows users to browse, add books with form validation and dynamic routes.
+A React-based Online Library System where users can browse, add, and explore books across various categories such as Fiction, Non-Fiction, Biography, and more.
 
 ## 🚀 Features
 
-- Add books
-- Form validation
-- Browse by category
-- Dynamic book detail pages
-- Persistent state with Redux
+- Add new books with details: title, author, category, image, rating, and description
+- Browse all books
+- View details of a selected book
+- Recently added book section
+- Form validation for all inputs
+- Not Found page for undefined routes
+- Redux Toolkit for state management
+- React Router DOM for routing
+- Tailwind CSS for styling
 
 ## 🧑‍💻 Tech Stack
 
@@ -22,22 +26,26 @@ An online book management system built with **React**, **Redux**, and **React Ro
 1. **Clone the repository:**
 
    ```bash
-   
+   git clone https://github.com/Misra-Praveen/Online-Library.git
    ```
 2. **Install dependencies:**
     
     ```bash
-   
+   npm install
+   npm install @reduxjs/toolkit
+   npm install react-redux
+   npm install react-router-dom
+
     ```
 3. **Install TailwindCSS:**
     
     ```bash
-   
+   npm install tailwindcss @tailwindcss/vite
     ```
 4. **Start the development server:**
     
     ```bash
-   
+   npm run dev
     ```
 5. **Open your browser and visit:**
     
